@@ -1,0 +1,30 @@
+.cal {
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px ;
+    height: 500px ;
+}
+.col {
+    width: 400px ;
+    display: flex;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: space-between;
+}
+.tus {
+    width: 80px ;
+    height: 80px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ekran {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+    letter-spacing: 2px;
+    width: 100%;
+}
